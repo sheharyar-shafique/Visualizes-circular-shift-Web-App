@@ -8,7 +8,7 @@ import MeshGrid from "./components/MeshGrid";
 import ComplexityPanel from "./components/ComplexityPanel";
 import { circularShift } from "./utils/shiftLogic";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_BASE = import.meta.env.VITE_API_URL || "https://visualizes-circular-shift-web-app.onrender.com";
 
 export default function App() {
   const [result, setResult] = useState(null);
